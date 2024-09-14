@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header">
+       <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></l>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">RESOURCES</a></li>
+                <li><a href="">TOUR</a></li>
+                <li><a href="">CONTACT</a></li>
+
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+       </nav>
+       <div class="text">
+        <h1>Extraordinary nature and<br> cultural calm</h1>
+        <p>Exploring Indonesia is an unforgettable adventure</p>
+        <a href="" class="hero-btn">Visit us to know more</a>
+       </div>
+    </section>
+    <section class="course">
+        <h1>Indonesia Tourism</h1>
+        <p>Extraordinary natural beauty, enjoy the rich culture and experience the friendliness of the local people</p>
+
+        <div class="row">
+            <div class="course-col">
+              <img src="images/indo1.jpg" alt="">
+            </div>
+            <div class="course-col">
+               <img src="images/indo2.jpg" alt="">
+            </div>    
+            <div class="course-col">
+               <img src="images/indo3.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1>Our Tourist Destination</h1>
+        <p>Our tourist destinations offer an unprivalled blend of natural beauty and cultural richness
+        </p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/bali (1).jpg" alt="">
+                <div class="layer">
+                    <h3>BALI TOUR PACKAGE</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/bali2.jpg" alt="">
+                <div class="layer">
+                    <h3>SOLO TOUR PACKAGE</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/java.jpg" alt="">
+                <div class="layer">
+                    <h3>jAVA TOUR PACKAGE</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="testimonials">
+        <h1>what our customer says</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum porro sit iure esse veniam corrupti nihil. Animi similique dolorem earum.</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/user1.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla ad eligendi veniam neque voluptates cum quasi a asperiores distinctio voluptate!</p>
+                    <h3>Christine Berkley</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="images/user2.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla ad eligendi veniam neque voluptates cum quasi a asperiores distinctio voluptate!</p>
+                    <h3>David Byer</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h1>check for our travel packages<br> anywhere from the world</h1>
+        <a href="" class="hero-btn ">CONTACT US</a>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat magnam animi<br> omnis libero neque quibusdam vero praesentium qui id quo.</p>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p></p> 
+    </section>
+    <!--javascript to toggle menu on small screes-->
+    <script>
+        var navlinks=document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right= "0";
+        }
+        function hidemen u(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
